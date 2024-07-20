@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Free Jobs </title>
+    <link rel="stylesheet" href="style19.css">
+</head>
+<body>
+    <div class="width-100">
+        <div class="container header">
+            <div class="width-25">
+            <img src="logo.png" alt="logo">
+        
+        </div>
+        <div class="width-50">
+            <ul class="header-menu">
+                <li><a href="home.html"> <c>H</c>ome</a></li>
+                <li><a href="job1.html">Jobs</a></li>
+                <li><a href="companies.html"><c>C</c>ompanies</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+
+            </ul>
+        </div>
+        <div class="width-25">
+            <a href="submit.html" class="button-job-post"><i class="fa fa-cloud-upload">Submit Job</i></a>
+            <a href="resume.html" class="button-resume"><i class="fa fa-pencil-square-o"></i>Create Resume</i></a>
+        </div>
+        </div>
+<header>
+    <h1>Post Free Jobs</h1>
+</header>
+
+<div class="container">
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="job-title">Job Title</label>
+            <input type="text" id="job-title" name="job-title" required>
+        </div>
+
+        <div class="form-group">
+            <label for="company-name">Company Name</label>
+            <input type="text" id="company-name" name="company-name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" required>
+        </div>
+
+        <div class="form-group">
+            <label for="job-type">Job Type</label>
+            <select id="job-type" name="job-type" required>
+                <option value="" disabled selected>Select Job Type</option>
+                <option value="full-time">Full-Time</option>
+                <option value="part-time">Part-Time</option>
+                <option value="contract">Contract</option>
+                <option value="internship">Internship</option>
+                <option value="remote">Remote</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="job-description">Job Description</label>
+            <textarea id="job-description" name="job-description" required></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="contact-email">Contact Email</label>
+            <input type="email" id="contact-email" name="contact-email" required>
+        </div>
+
+        <button type="submit" class="submit-button">Post Job</button>
+    </form>
+</div>
+<footer>
+    <p>&copy; 2024 JobFinder. All rights reserved.</p>
+</footer>
+</body>
+</html>

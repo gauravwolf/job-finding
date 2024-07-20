@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <div class="width-100">
+        <div class="container header">
+            <div class="width-25">
+            <img src="logo.png" alt="logo">
+        
+        </div>
+        <div class="width-50">
+            <ul class="header-menu">
+                <li><a href="home.html"> <c>H</c>ome</a></li>
+                <li><a href="job1.html">Jobs</a></li>
+                <li><a href="companies.html"><c>C</c>ompanies</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+
+            </ul>
+        </div>
+        <div class="width-25">
+            <a href="submit.html" class="button-job-post"><i class="fa fa-cloud-upload">Submit Job</i></a>
+            <a href="resume.html" class="button-resume"><i class="fa fa-pencil-square-o"></i>Create Resume</i></a>
+        </div>
+        </div>
+    
+    <div class="form-container">
+        <h1>Apply Now</h1>
+        <form action="submit_application.php" method="POST" enctype="multipart/form-data">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="position">Position Applied For</label>
+            <input type="text" id="position" name="position" required>
+            
+            <label for="resume">Upload Resume</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            
+            <label for="cover_letter">Cover Letter</label>
+            <textarea id="cover_letter" name="cover_letter" rows="4"></textarea>
+            
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Job Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
